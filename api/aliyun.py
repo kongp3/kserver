@@ -21,5 +21,5 @@ def aliyun_ssswitch(**kwargs):
     flag = request.values.get("flag")
     kfm = AliyunOwner()
     kfm.ssswitch(flag)
-    return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
+    return json.dumps({'success': True}), 200, {'ContentType': 'application/json'}
 
